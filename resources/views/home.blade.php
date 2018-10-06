@@ -66,10 +66,10 @@
 		</form>
 		<br>
 
-		<h4>TAREA 2.6 Formulario usando en la misma vista</h4>
+		<h4>TAREA 2.5 Formulario usando en la misma vista</h4>
 		<p><a href="multi">Saludo en diferentes idiomas</a></p>
 		<br>
-		<h4>TAREA 2.7 Layouts</h4>
+		<h4>TAREA 2.6 Layouts</h4>
 		<p><a href="resumen">Introduccion a Blade</a></p>
 		<br>
 	</body>

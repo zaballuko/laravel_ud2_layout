@@ -65,7 +65,7 @@
           <li>generar la ruta correspondiente en el fichero de rutas (llamar a la vista directamente).</li>
         </ul>
         Atención!! Vamos a trabajar tod@s sobre el mismo repositorio github, en cada grupo habrá un colaborador que es el que se encargará de realizar las actualizaciones sobre el repositorio.
-        De esta manera practicaremos sobre los conflictos que se pueden dar en los proyectos colaborativos y como resolverlos.
+        De esta manera practicaremos sobre los conflictos que se pueden dar en los proyectos colaborativos y como resolverlos (documento colaborativo).
         Modificar sólo lo que ha sido solicitado.
         </p>
         <p><a href="https://github.com/ajuanena/laravel_ud2_layout.git">Descarga de proyecto</a></p>

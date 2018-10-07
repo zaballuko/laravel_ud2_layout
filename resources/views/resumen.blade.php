@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="{{asset('public/favicon.ico')}}">
 
-    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <title>DW32 - Tarea 2.6 Layouts</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -64,8 +64,9 @@
             </ul>
           <li>generar la ruta correspondiente en el fichero de rutas (llamar a la vista directamente).</li>
         </ul>
+
         Atención!! Vamos a trabajar tod@s sobre el mismo repositorio github, en cada grupo habrá un colaborador que es el que se encargará de realizar las actualizaciones sobre el repositorio.
-        De esta manera practicaremos sobre los conflictos que se pueden dar en los proyectos colaborativos y como resolverlos (documento colaborativo).
+        De esta manera practicaremos sobre los conflictos que se pueden dar en los proyectos colaborativos y como resolverlos (<a href="https://docs.google.com/document/d/1-3KoOla9AxGJ_DIjrfNS3Prv1eEUvFO9sAf5ti1NU8o/edit?usp=sharing">registro de incidencias</a>).
         Modificar sólo lo que ha sido solicitado.
         </p>
         <p><a href="https://github.com/ajuanena/laravel_ud2_layout.git">Descarga de proyecto</a></p>

@@ -54,78 +54,86 @@
 
     <!-- Begin page content: EL CONTENIDO DEL CONTENEDOR DEBERÁ SUSTITUIRSE POR VUESTRO TEMA -->
     <main role="main" class="container">
-      <h1 class="mt-5">Tarea 2.6 (1ª parte)</h1>
-      <p class="lead">Cada grupo deberá realizar un pequeño resumen sobre algunos conceptos de Laravel. Para ello tenéis que:
-        <ul>
-          <li>crear una vista siguiendo esta plantilla (hacer una copia cuyo nombre sera grupox.blade.php) y modificar:
-            <ul>
-              <li>el cuerpo de la página (este contenedor) con el tema a desarrollar.</li>
-              <li>la barra de navegación (sustituir el nombre del grupo por el tema que os ha tocado,activar vuestro menú y modificar el enlace).</li>
-            </ul>
-          <li>generar la ruta correspondiente en el fichero de rutas (llamar a la vista directamente).</li>
-        </ul>
+      <div class="row">
+      <div class="col-sm-10">
+        <h1 class="mt-5">Tarea 2.6 (1ª parte)</h1>
+        <p class="lead">Cada grupo deberá realizar un pequeño resumen sobre algunos conceptos de Laravel. Para ello tenéis que:
+          <ul>
+            <li>crear una vista siguiendo esta plantilla (hacer una copia cuyo nombre sera grupox.blade.php) y modificar:
+              <ul>
+                <li>el cuerpo de la página (este contenedor): tema a desarrollar e imagen en la columna derecha con un enlace.</li>
+                <li>la barra de navegación (sustituir el nombre del grupo por el tema que os ha tocado,activar vuestro menú y modificar el enlace).</li>
+              </ul>
+            <li>generar la ruta correspondiente en el fichero de rutas (llamar a la vista directamente).</li>
+          </ul>
 
-        Atención!! Vamos a trabajar tod@s sobre el mismo repositorio github, en cada grupo habrá un colaborador que es el que se encargará de realizar las actualizaciones sobre el repositorio.
-        De esta manera practicaremos sobre los conflictos que se pueden dar en los proyectos colaborativos y como resolverlos (<a href="https://docs.google.com/document/d/1-3KoOla9AxGJ_DIjrfNS3Prv1eEUvFO9sAf5ti1NU8o/edit?usp=sharing">registro de incidencias</a>).
-        Modificar sólo lo que ha sido solicitado.
+          Atención!! Vamos a trabajar tod@s sobre el mismo repositorio github, en cada grupo habrá un colaborador que es el que se encargará de realizar las actualizaciones sobre el repositorio.
+          De esta manera practicaremos sobre los conflictos que se pueden dar en los proyectos colaborativos y como resolverlos (<a href="https://docs.google.com/document/d/1-3KoOla9AxGJ_DIjrfNS3Prv1eEUvFO9sAf5ti1NU8o/edit?usp=sharing">registro de incidencias</a>).
+          Modificar sólo lo que ha sido solicitado.
+          </p>
+          <p><a href="https://github.com/ajuanena/laravel_ud2_layout.git">Descarga de proyecto</a></p>
+
+        <p class="lead"><b>Temas a tratar</b></p>
+        <p class="lead text-primary">Grupo 1. Laravel</p>
+        <p>
+          <ul>
+            <li>¿Qué es Laravel?</li>
+            <li>Generar nuevo proyecto</li>
+            <li>Clave de encriptacion del proyecto</li>
+            <li>.env</li>
+            <li>Artisan</li>
+            <li>Algunas opciones de artisan</li>
+          </ul>
         </p>
-        <p><a href="https://github.com/ajuanena/laravel_ud2_layout.git">Descarga de proyecto</a></p>
+        <p class="lead text-primary">Grupo 2. Rutas</p>
+        <p>
+          <ul>
+            <li>Localizacion</li>
+            <li>Rutas con funcion anónima</li>
+            <li>Rutas con parámetros</li>
+            <li>Rutas con filtros o restricciones de expresiones regulares en los parámetros</li>
+            <li>utas con parámetros opcionales</li>
+          </ul>
+        </p>
+        <p class="lead text-primary">Grupo 3. Controlador</p>
+        <p>
+          <ul>
+            <li>Generar un controlador</li>
+            <li>Namespace</li>
+            <li>Métodos en el controlador</li>
+            <li>Enlazar una ruta a un controlador</li>
+            <li>Controlador de un solo método</li>
+          </ul>
+        </p>
+        <p class="lead text-primary">Grupo 4. Vistas</p>
+        <p>
+          <ul>
+            <li>Crear una vista</li>
+            <li>Retornar una vista</li>
+            <li>Pasar datos a la vista:</li>
+            <li>- array asociativo</li>
+            <li>- método with</li>
+            <li>- funcion compact</li>
+            <li>Escapar código HTML</li>
+          </ul>
+        </p>
+        <p class="lead text-primary">Grupo 5. Blade</p>
+        <p>
+          <ul>
+            <li>¿Qué es Blade?</li>
+            <li>Imprimir variables</li>
+            <li>Ciclos y estructuras: if, for, foreach, unless, empty</li>
+            <li>Vistas en caché</li>
+            <li>Token (CSRF)</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-2">
+      <h4 class="mt-5">Enlaces</h4>
+      <a title="Laravel" href="https://laravel.com/" target="_blank"><img src="laravel.png" class="img-thumbnail"></a>
 
-      <p class="lead"><b>Temas a tratar</b></p>
-      <p class="lead text-primary">Grupo 1. Laravel</p>
-      <p>
-        <ul>
-          <li>¿Qué es Laravel?</li>
-          <li>Generar nuevo proyecto</li>
-          <li>Clave de encriptacion del proyecto</li>
-          <li>.env</li>
-          <li>Artisan</li>
-          <li>Algunas opciones de artisan</li>
-        </ul>
-      </p>
-      <p class="lead text-primary">Grupo 2. Rutas</p>
-      <p>
-        <ul>
-          <li>Localizacion</li>
-          <li>Rutas con funcion anónima</li>
-          <li>Rutas con parámetros</li>
-          <li>Rutas con filtros o restricciones de expresiones regulares en los parámetros</li>
-          <li>utas con parámetros opcionales</li>
-        </ul>
-      </p>
-      <p class="lead text-primary">Grupo 3. Controlador</p>
-      <p>
-        <ul>
-          <li>Generar un controlador</li>
-          <li>Namespace</li>
-          <li>Métodos en el controlador</li>
-          <li>Enlazar una ruta a un controlador</li>
-          <li>Controlador de un solo método</li>
-        </ul>
-      </p>
-      <p class="lead text-primary">Grupo 4. Vistas</p>
-      <p>
-        <ul>
-          <li>Crear una vista</li>
-          <li>Retornar una vista</li>
-          <li>Pasar datos a la vista:</li>
-          <li>- array asociativo</li>
-          <li>- método with</li>
-          <li>- funcion compact</li>
-          <li>Escapar código HTML</li>
-        </ul>
-      </p>
-      <p class="lead text-primary">Grupo 5. Blade</p>
-      <p>
-        <ul>
-          <li>¿Qué es Blade?</li>
-          <li>Imprimir variables</li>
-          <li>Ciclos y estructuras: if, for, foreach, unless, empty</li>
-          <li>Vistas en caché</li>
-          <li>Token (CSRF)</li>
-        </ul>
-      </p>
-
+      </div>
+      </div>
     </main>
 
     <footer class="footer">

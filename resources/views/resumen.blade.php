@@ -21,7 +21,7 @@
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">DW32 - Laravel</a>
+        <a class="navbar-brand" href="resumen">DW32 - Laravel</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,19 +29,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <a class="nav-link" href="#">Grupo 1 <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="grupo1">Laravel <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Grupo 2</a>
+              <a class="nav-link" href="grupo2">Rutas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Grupo 3</a>
+              <a class="nav-link" href="grupo3">Controlador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Grupo 4</a>
+              <a class="nav-link" href="grupo4">Vistas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Grupo 5</a>
+              <a class="nav-link" href="grupo5">Blade</a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
